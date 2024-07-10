@@ -49,9 +49,6 @@ dependencies {
 	// Actually not needed, because this is only used with ModMenu, and ModMenu includes it
 	//modApi(fabricApi.module("fabric-resource-loader-v0", project.fabric_version))
 	//include fabricApi.module("fabric-resource-loader-v0", project.fabric_version)
-
-	// ModMenu API, to add the Config Screen to it
-	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {
